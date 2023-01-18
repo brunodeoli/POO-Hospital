@@ -1,3 +1,7 @@
+package Salas;
+
+import Pessoas.Funcionario;
+
 public class Exame extends Sala {
     public Exame() {
     }

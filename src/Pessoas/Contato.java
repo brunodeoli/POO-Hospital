@@ -1,3 +1,5 @@
+package Pessoas;
+
 public class Contato {
     private String email;
     private String telefone;

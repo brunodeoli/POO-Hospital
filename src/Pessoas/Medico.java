@@ -1,3 +1,8 @@
+package Pessoas;
+
+import Pessoas.Contato;
+import Pessoas.Funcionario;
+
 import java.util.List;
 
 public abstract class Medico extends Funcionario {

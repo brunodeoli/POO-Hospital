@@ -1,6 +1,11 @@
+package Pessoas;
+
+import Pessoas.Contato;
+import Pessoas.Medico;
+
 import java.util.List;
 
-public final class Neuro extends Medico{
+public final class Neuro extends Medico {
 
     public Neuro() {
     }

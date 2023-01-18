@@ -1,3 +1,9 @@
+package Salas;
+
+import Pessoas.Funcionario;
+import Pessoas.StatusFuncionario;
+import Salas.Fila;
+
 public abstract class Sala {
     private Funcionario responsavel;
     private Fila fila;

@@ -1,3 +1,7 @@
+package Pessoas;
+
+import Salas.Fila;
+
 import java.util.ArrayList;
 import java.util.List;
 

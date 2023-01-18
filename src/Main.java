@@ -1,3 +1,6 @@
+import Pessoas.*;
+import Salas.*;
+
 import java.util.Scanner;
 
 public class Main {
@@ -51,7 +54,7 @@ public class Main {
                     case 1 -> atendente.encaminhaSala(primeiroDaFila, filaCirurgia, "cirurgiao");
                     case 2 -> atendente.encaminhaSala(primeiroDaFila, filaConsulta, "clinico geral");
                     case 3 -> atendente.encaminhaSala(primeiroDaFila, filaExame, "neurologista");
-                    default -> System.out.println("Sala nao encontrada");
+                    default -> System.out.println("Salas.Sala nao encontrada");
                 }
             }
         }
@@ -59,7 +62,7 @@ public class Main {
     }
 
     public static boolean pacienteEmAtendimento(Sala sala1, Sala sala2, Sala sala3, Sala sala4){
-        System.out.println("Fila para medico atendimento - " + sala1.getFila());
+        System.out.println("Fila para atendimento - " + sala1.getFila());
         System.out.println("Fila para medico cirurgiao - " + sala2.getFila());
         System.out.println("Fila para medico clinico geral - " + sala3.getFila());
         System.out.println("Fila para medico neurologista - " + sala4.getFila());

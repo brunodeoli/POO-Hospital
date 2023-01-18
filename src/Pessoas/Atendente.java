@@ -1,9 +1,13 @@
+package Pessoas;
+
+import Salas.Fila;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class Atendente extends Funcionario{
+public class Atendente extends Funcionario {
 
     public Atendente() {
         super();

@@ -1,6 +1,6 @@
-import java.util.Objects;
+package Pessoas;
 
-public abstract class Funcionario extends Pessoa{
+public abstract class Funcionario extends Pessoa {
     private String id;
     private Double salarioBase;
     private StatusFuncionario status;

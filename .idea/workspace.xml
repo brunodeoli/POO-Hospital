@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07c25ece-d2fe-46d3-ad04-65f5f70206d0" name="Changes" comment="add construtor">
+    <list default="true" id="07c25ece-d2fe-46d3-ad04-65f5f70206d0" name="Changes" comment="add equals nas classes Funcionario e Paciente">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Atendente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pessoas/Atendente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Atendimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Salas/Atendimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cirurgia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Salas/Cirurgia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cirurgiao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pessoas/Cirurgiao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClinicoGeral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pessoas/ClinicoGeral.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Consulta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Salas/Consulta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Contato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pessoas/Contato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Salas/Exame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Salas/Fila.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pessoas/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListaSintomas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pessoas/ListaSintomas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Medico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pessoas/Medico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Neuro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pessoas/Neuro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pessoas/Paciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pessoas/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sala.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Salas/Sala.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StatusFuncionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pessoas/StatusFuncionario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674069581258</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add equals nas classes Funcionario e Paciente">
+      <created>1674072025922</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674072025922</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +122,7 @@
     <MESSAGE value="implementação das classes e main" />
     <MESSAGE value="revisão das classes" />
     <MESSAGE value="add construtor" />
-    <option name="LAST_COMMIT_MESSAGE" value="add construtor" />
+    <MESSAGE value="add equals nas classes Funcionario e Paciente" />
+    <option name="LAST_COMMIT_MESSAGE" value="add equals nas classes Funcionario e Paciente" />
   </component>
 </project>
