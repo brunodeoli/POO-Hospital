@@ -70,4 +70,13 @@ public class Paciente extends Pessoa {
     public String toString() {
         return this.getNome();
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if(this == o) return true;
+        if(!(o instanceof Paciente)) return false;
+        Paciente paciente = (Paciente) o;
+        boolean isEqual = this.getNome().equals(paciente.getNome()) && this.getCpf().equals(paciente.getCpf());
+        return isEqual;
+    }
 }
