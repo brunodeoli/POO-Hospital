@@ -16,7 +16,7 @@ public abstract class Medico extends Funcionario {
 
     protected abstract void preescreverMedicamentos(List<String> sintomas);
 
-    public void encerrarAtendimento(Paciente paciente){
+    public final void encerrarAtendimento(Paciente paciente){
         System.out.println("Medico: Finalizando atendimento com paciente " + paciente.getNome());
         System.out.println("\n########################################\n");
         paciente.liberarSala(paciente.getFilaAtual());

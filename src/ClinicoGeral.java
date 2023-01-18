@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class ClinicoGeral extends Medico{
+public final class ClinicoGeral extends Medico{
     @Override
     public void realizarDiagnostico(Paciente paciente) {
         System.out.println("DIAGNOSTICO COM MEDICO CLINICO GERAL");
