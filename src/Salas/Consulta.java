@@ -1,3 +1,7 @@
+package Salas;
+
+import Pessoas.Funcionario;
+
 public class Consulta extends Sala {
     public Consulta() {
     }

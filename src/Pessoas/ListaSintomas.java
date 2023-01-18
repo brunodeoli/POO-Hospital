@@ -1,3 +1,5 @@
+package Pessoas;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,11 +12,11 @@ public class ListaSintomas {
         this.sintomas.add("Gripe");
         this.sintomas.add("Febre");
         this.sintomas.add("Vomito");
-        //Cirurgiao
+        //Pessoas.Cirurgiao
         this.sintomas.add("Fratura");
         this.sintomas.add("Fratura exposta");
         this.sintomas.add("Corte profundo");
-        //Neuro
+        //Pessoas.Neuro
         this.sintomas.add("Exaqueca");
         this.sintomas.add("Epilepsia");
         this.sintomas.add("Insonia");

@@ -1,3 +1,7 @@
+package Salas;
+
+import Pessoas.Paciente;
+
 import java.util.ArrayList;
 import java.util.List;
 

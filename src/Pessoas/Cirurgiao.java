@@ -1,6 +1,8 @@
+package Pessoas;
+
 import java.util.List;
 
-public final class Cirurgiao extends Medico{
+public final class Cirurgiao extends Medico {
 
     public Cirurgiao() {
     }
