@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07c25ece-d2fe-46d3-ad04-65f5f70206d0" name="Changes" comment="criação das classes">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Consulta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ListaSintomas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StatusFuncionario.java" afterDir="false" />
+    <list default="true" id="07c25ece-d2fe-46d3-ad04-65f5f70206d0" name="Changes" comment="implementação das classes e main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Atendente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Atendente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Atendimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Atendimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cirurgia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cirurgia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cirurgiao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cirurgiao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ClinicoGeral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClinicoGeral.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fila.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Funcionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Medico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Medico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Neuro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Neuro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Paciente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sala.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sala.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pessoa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673914570785</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="implementação das classes e main">
+      <created>1674061830040</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674061830040</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,6 +86,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="criação das classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="criação das classes" />
+    <MESSAGE value="implementação das classes e main" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementação das classes e main" />
   </component>
 </project>

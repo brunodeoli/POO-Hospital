@@ -25,17 +25,17 @@ public class Paciente extends Pessoa {
         }
     }
 
-    public void entrarNoAtendimento(Fila fila){
+    public final void entrarNoAtendimento(Fila fila){
         this.filaAtual = fila;
         fila.aumentarFila(this);
     }
 
-    public void liberarSala(Fila fila){
+    public final void liberarSala(Fila fila){
         this.filaAtual = null;
         fila.diminuirFila(this);
     }
 
-    protected void addSintoma(String sintoma){
+    protected final void addSintoma(String sintoma){
         if(this.sintomas == null){
             this.sintomas = new ArrayList<>();
         }

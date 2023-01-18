@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class Neuro extends Medico{
+public final class Neuro extends Medico{
     @Override
     public void realizarDiagnostico(Paciente paciente) {
         System.out.println("DIAGNOSTICO COM MEDICO NEUROLOGISTA");
