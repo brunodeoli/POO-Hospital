@@ -1,16 +1,19 @@
 public abstract class Funcionario extends Pessoa{
     private String id;
     private Double salarioBase;
+    private StatusFuncionario status;
 
 
     public Funcionario() {
         super();
+        this.status = StatusFuncionario.LIVRE;
     }
 
     public Funcionario(String nome, String cpf, Contato contato, String id, Double salarioBase) {
         super(nome, cpf, contato);
         this.salarioBase = salarioBase;
         this.id = id;
+        this.status = StatusFuncionario.LIVRE;
     }
 
     public String getId() {
@@ -27,5 +30,13 @@ public abstract class Funcionario extends Pessoa{
 
     protected void setSalarioBase(Double salarioBase) {
         this.salarioBase = salarioBase;
+    }
+
+    public StatusFuncionario getStatus() {
+        return status;
+    }
+
+    public void setStatus(StatusFuncionario status) {
+        this.status = status;
     }
 }

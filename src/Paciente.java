@@ -1,8 +1,10 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Paciente extends Pessoa {
     private List<String> sintomas;
     private Boolean temConvenio;
+    private Fila filaAtual;
 
     public Paciente() {
         super();
@@ -12,19 +14,32 @@ public class Paciente extends Pessoa {
         super(nome, cpf, contato);
         this.sintomas = sintomas;
         this.temConvenio = temConvenio;
+        this.filaAtual = null;
     }
 
     public void pagarConsulta(){
-        if(this.temConvenio == true){
-            System.out.println("Consulta por convenio");
+        if(this.temConvenio){
+            System.out.println("Paciente " + this.getNome() + ": Consulta por convenio");
         }else{
-            System.out.println("Consulta paga");
+            System.out.println("Paciente " + this.getNome() + ": Consulta paga");
         }
-
     }
 
-    public void entrarNaFila(Fila fila){
-        fila.aumentarFila();
+    public void entrarNoAtendimento(Fila fila){
+        this.filaAtual = fila;
+        fila.aumentarFila(this);
+    }
+
+    public void liberarSala(Fila fila){
+        this.filaAtual = null;
+        fila.diminuirFila(this);
+    }
+
+    protected void addSintoma(String sintoma){
+        if(this.sintomas == null){
+            this.sintomas = new ArrayList<>();
+        }
+        this.sintomas.add(sintoma);
     }
 
     public List<String> getSintomas() {
@@ -41,5 +56,18 @@ public class Paciente extends Pessoa {
 
     public void setTemConvenio(Boolean temConvenio) {
         this.temConvenio = temConvenio;
+    }
+
+    public Fila getFilaAtual() {
+        return filaAtual;
+    }
+
+    public void setFilaAtual(Fila filaAtual) {
+        this.filaAtual = filaAtual;
+    }
+
+    @Override
+    public String toString() {
+        return this.getNome();
     }
 }

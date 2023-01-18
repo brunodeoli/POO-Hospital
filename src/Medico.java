@@ -12,7 +12,16 @@ public abstract class Medico extends Funcionario {
         this.crm = crm;
     }
 
-    protected abstract void realizarDiagnostico(List<String> sintomas);
+    public abstract void realizarDiagnostico(Paciente paciente);
+
+    protected abstract void preescreverMedicamentos(List<String> sintomas);
+
+    public void encerrarAtendimento(Paciente paciente){
+        System.out.println("Medico: Finalizando atendimento com paciente " + paciente.getNome());
+        System.out.println("\n########################################\n");
+        paciente.liberarSala(paciente.getFilaAtual());
+        this.setStatus(StatusFuncionario.LIVRE);
+    }
 
     public String getCrm() {
         return crm;
