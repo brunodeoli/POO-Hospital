@@ -1,6 +1,14 @@
 import java.util.List;
 
 public final class Neuro extends Medico{
+
+    public Neuro() {
+    }
+
+    public Neuro(String nome, String cpf, Contato contato, String id, Double salarioBase, String crm) {
+        super(nome, cpf, contato, id, salarioBase, crm);
+    }
+
     @Override
     public void realizarDiagnostico(Paciente paciente) {
         System.out.println("DIAGNOSTICO COM MEDICO NEUROLOGISTA");

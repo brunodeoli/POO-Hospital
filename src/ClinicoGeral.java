@@ -1,6 +1,14 @@
 import java.util.List;
 
 public final class ClinicoGeral extends Medico{
+
+    public ClinicoGeral() {
+    }
+
+    public ClinicoGeral(String nome, String cpf, Contato contato, String id, Double salarioBase, String crm) {
+        super(nome, cpf, contato, id, salarioBase, crm);
+    }
+
     @Override
     public void realizarDiagnostico(Paciente paciente) {
         System.out.println("DIAGNOSTICO COM MEDICO CLINICO GERAL");
